@@ -12,13 +12,17 @@ menuButton.addEventListener(
 
 function openMenu(button, menu) {
     if (!menu.getAttribute('style')) {
-        // button.children[0].classList.remove('fa-bars');
-        // button.children[0].classList.add('fa-chevron-up');
+        button.children[0].children[1].style = 'visibility: hidden;';
+        button.children[1].children[0].style = 'width: 0.4em; margin-left: 1em;';
+        button.children[1].children[1].style = 'width: 0.4em;';
+        button.children[1].children[2].style = 'width: 0.4em; margin-left: 1em;';
 
         menu.style.transform = 'translateY(5rem)';
     } else {
-        // button.children[0].classList.remove('fa-chevron-up');
-        // button.children[0].classList.add('fa-bars');
+        button.children[0].children[1].style = 'visibility: visible;';
+        button.children[1].children[0].style = '';
+        button.children[1].children[1].style = '';
+        button.children[1].children[2].style = '';
 
         menu.removeAttribute('style');
     }
