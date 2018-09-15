@@ -1,0 +1,298 @@
+/* MAIN CSS */
+
+:root {
+    /* COLORS */
+    --blu: rgb(23, 27, 96);
+    --blu_trasp: rgba(23, 27, 96, 0.5);
+    --viola: #933C91;
+    --nero: #000;
+    --bianco: #fff;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: var(--blu_trasp);
+
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header > img {
+    margin: 1em;
+    width: 8em;
+}
+
+nav {
+    background-color: var(--blu_trasp);
+
+    position: absolute;
+    width: 25%;
+    margin-left: 75%;
+    z-index: 9;
+
+    transform: translateY(-15rem);
+    transition: transform 0.25s ease-out;
+}
+
+nav > a {
+    text-align: right;
+    text-transform: capitalize;
+    text-decoration: none;
+
+    color: var(--bianco);
+    display: block;
+    margin: 1em;
+}
+
+#menu-button {
+    margin: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#menu-button > div:nth-child(1) > div {
+    width: 0.4em;
+    height: 0.4em;
+    background-color: var(--bianco);
+    margin: 0.4em 0.2em;
+    border-radius: 1em;
+}
+
+#menu-button > div:nth-child(2) > div {
+    width: 2.4em;
+    height: 0.4em;
+    background-color: var(--bianco);
+    margin: 0.4em 0.2em;
+    border-radius: 1em;
+}
+
+main {
+
+}
+
+.banner {
+    width: 100%;
+}
+
+#intro {
+    text-align: center;
+
+    margin: 1em;
+}
+
+#intro > h1 {
+    text-transform: capitalize;
+
+    color: var(--viola);
+}
+
+#intro > button {
+    text-transform: capitalize;
+
+    border: 2px solid var(--viola);
+    background-color: transparent;
+    color: var(--viola);
+
+    padding: 1em;
+}
+
+.services {
+    margin: 2em;
+}
+
+.services > div::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.services > div > img {
+    width: 20%;
+
+    border-radius: 50%;
+    border: 0.2em solid var(--viola);
+}
+
+.services > div > div {
+    width: 75%;
+
+    margin-left: 5%;
+    float: right;
+}
+
+.services > div > div > h2 {
+    color: var(--viola);
+    text-transform: capitalize;
+    margin-top: 0;
+}
+
+#claire {
+    /* background-image: url("https://placeimg.com/375/375/people");
+    background-color: var(--blu_trasp); */
+    background: linear-gradient(var(--blu_trasp),var(--blu_trasp)), url("https://placeimg.com/375/375/people");
+    color: var(--bianco);
+    padding: 2em 1em;
+
+    text-align: center;
+}
+
+#claire > h1 {
+    text-transform: capitalize;
+}
+
+#claire > h3 {
+    
+}
+
+#claire > h3::after {
+    content:"";
+    display: block;
+    width: 50%;
+    margin: 1em 25%;
+    border-bottom: 1px solid var(--bianco);
+}
+
+#claire > button {
+    text-transform: capitalize;
+
+    background-color: var(--viola);
+    border: none;
+    color: var(--bianco);
+
+    padding: 1em;
+}
+
+#form {
+    /* background-image: url("https://placeimg.com/375/375/people");
+    background-color: var(--blu_trasp); */
+    background: linear-gradient(var(--blu_trasp),var(--blu_trasp)), url("https://placeimg.com/375/375/any");
+    color: var(--bianco);
+    padding: 1em;
+
+    text-align: center;
+}
+
+#form > h1 {
+    text-transform: capitalize;
+}
+
+#form > h3 {
+    text-transform: capitalize;
+
+    margin: 0;
+}
+
+#form > p {
+    text-transform: capitalize;
+
+    margin: 0;
+}
+
+#form > p:nth-child(4)::after {
+    content:"";
+    display: block;
+    width: 50%;
+    margin: 1em 25%;
+    border-bottom: 1px solid var(--bianco);
+}
+
+#team {
+    margin: 1em;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#team-title {
+    text-transform: capitalize;
+    color: var(--viola);
+    text-align: center;
+}
+
+#team > div {
+    background-color: rgba(225, 225, 225, 1.0);
+    width: 40%;
+    margin: 5%;
+}
+
+#team > div > img {
+    width: 100%;
+}
+
+#team > div > div > h4 {
+    text-align: center;
+    margin: 0.5em;
+}
+
+#team > div > div > p {
+    text-align: center;
+}
+
+form {
+    margin: 1em;
+}
+
+form > input[type=text] {
+    background-color: rgba(255, 255, 255, 0.25);
+    color: var(--bianco);
+
+    padding: 1em;
+    margin: 1em 0;
+    border: none;
+
+    width: 100%;
+}
+
+form > input[type=text]::placeholder {
+    color: var(--bianco);
+    opacity: 0.9;
+}
+
+form > textarea {
+    background-color: rgba(255, 255, 255, 0.25);
+    color: var(--bianco);
+
+    padding: 1em;
+    margin: 1em 0;
+    border: none;
+
+    width: 100%;
+    height: 20em;
+    resize: none;
+}
+
+form > textarea::placeholder {
+    color: var(--bianco);
+    opacity: 0.9;
+}
+
+footer {
+    background-color: var(--nero);
+    color: var(--bianco);
+
+    padding: 1em;
+}
+
+footer > span {
+    text-transform: capitalize;
+    margin: 0.2em;
+}
