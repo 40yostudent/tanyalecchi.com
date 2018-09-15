@@ -15,7 +15,7 @@ function openMenu(button, menu) {
         // button.children[0].classList.remove('fa-bars');
         // button.children[0].classList.add('fa-chevron-up');
 
-        menu.style.transform = 'translateY(4.9rem)';
+        menu.style.transform = 'translateY(5rem)';
     } else {
         // button.children[0].classList.remove('fa-chevron-up');
         // button.children[0].classList.add('fa-bars');
