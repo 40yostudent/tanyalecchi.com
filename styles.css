@@ -74,6 +74,8 @@ nav > a {
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
+
+
 }
 
 #menu-button > div:nth-child(1) > div {
@@ -90,6 +92,8 @@ nav > a {
     background-color: var(--bianco);
     margin: 0.4em 0.2em;
     border-radius: 1em;
+
+    transition: width 0.25s ease-out;
 }
 
 main {
