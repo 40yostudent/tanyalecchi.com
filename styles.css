@@ -20,6 +20,11 @@ body {
     margin: 0;
 }
 
+a, a:hover, a:active, a:visited, a:focus {
+    color: var(--bianco);
+    text-decoration: none;
+}
+
 header {
     background-color: var(--blu_trasp);
 
@@ -42,18 +47,21 @@ nav {
     background-color: var(--blu_trasp);
 
     position: absolute;
-    width: 25%;
-    margin-left: 75%;
+    top: 5rem;
+    width: 30%;
+    margin-left: 70%;
     z-index: 9;
 
-    transform: translateY(-15rem);
+    /* transform: translateY(-15rem); */
+    transform: translateX(9rem);
     transition: transform 0.25s ease-out;
 }
 
 nav > a {
+    font-size: 1.2em;
+
     text-align: right;
     text-transform: capitalize;
-    text-decoration: none;
 
     color: var(--bianco);
     display: block;
