@@ -7,6 +7,8 @@
     --viola: #933C91;
     --nero: #000;
     --bianco: #fff;
+    --boxes0: rgb(162, 164, 190);
+    --boxes1: rgb(207, 180, 209);
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.8rem;
@@ -154,6 +156,29 @@ main {
     color: var(--viola);
     text-transform: capitalize;
     margin-top: 0;
+}
+
+#services-boxes > div {
+    text-align: justify;
+
+    color: var(--bianco);
+
+    padding: 2em;
+    margin: 1em;
+}
+
+#services-boxes >div:nth-child(2n+1) {
+    background-color: var(--boxes0);
+}
+
+#services-boxes >div:nth-child(2n) {
+    background-color: var(--boxes1);
+}
+
+#services-boxes > div > h1 {
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0;
 }
 
 #claire {
