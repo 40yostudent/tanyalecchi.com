@@ -23,11 +23,11 @@
     <header>
 
         <nav>
-            <a href="./index.html">home</a>
-            <a href="./about-us.html">about Us</a>
-            <a href="./services.html">services</a>
-            <a href="./contacts.html">contacts</a>
-            <a href="./map.html">map</a>
+            <a href="./index.php">home</a>
+            <a href="./about-us.php">about Us</a>
+            <a href="./services.php">services</a>
+            <a href="./contacts.php">contacts</a>
+            <a href="./map.php">map</a>
         </nav>
 
         <img src="./images/logo-inv.svg">
