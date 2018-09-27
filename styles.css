@@ -139,8 +139,8 @@ main {
 .services > div > img {
     width: 20%;
 
-    border-radius: 50%;
-    border: 0.2em solid var(--viola);
+    /* border-radius: 50%;
+    border: 0.2em solid var(--viola); */
 }
 
 .services > div > div {
