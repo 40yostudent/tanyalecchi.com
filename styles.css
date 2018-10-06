@@ -69,14 +69,35 @@ nav > a {
     margin: 1em;
 }
 
+@media only screen and (min-width: 768px) {
+    nav {
+        background-color: rgba(0, 0, 0, 0);
+
+        width: 50%;
+        margin-left: 50%;
+        padding-top: 2em;
+        top: 0;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: baseline;
+
+        transform: translateX(0%);
+    }
+
+    nav > a {
+        font-size: 1em;
+        margin: 1em;
+    }
+}
+
 #menu-button {
     margin: 1em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
-
-
 }
 
 #menu-button > div:nth-child(1) > div {
@@ -95,6 +116,12 @@ nav > a {
     border-radius: 1em;
 
     transition: width 0.25s ease-out;
+}
+
+@media only screen and (min-width: 768px) {
+    #menu-button {
+        display: none;
+    }
 }
 
 .banner {
@@ -327,4 +354,8 @@ footer {
 footer > span {
     text-transform: capitalize;
     margin: 0.2em;
+}
+
+@media only screen and (min-width: 768px) {
+
 }
