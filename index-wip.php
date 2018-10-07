@@ -98,25 +98,22 @@
         </div>
 
         <div id="form">
-
+            
+            <div>
                 <h1>contacts</h1>
                 <h3>broad horizons</h3>
-                <p>1 college grounds</p>
-                <p>gate 1 moulton college</p>
-                <p>northampton</p>
-                <p>NN3 7SY</p>
+                <p>1 college grounds<br>gate 1 moulton college<br>northampton<br>NN3 7SY</p>
 
-                <p>07920 170 100</p>
-                <p>info@broadhorizons.org.uk</p>
-                <p>www.broadhorizons.org.uk</p>
-
-                <form>
-                    <input type="text" name="name" placeholder="Name"><br>
-                    <input type="text" name="email" placeholder="email"><br>
-                    <textarea name="message" placeholder="Your message..."></textarea>
-                </form>
-
+                <p>07920 170 100<br>info@broadhorizons.org.uk<br>www.broadhorizons.org.uk</p>
             </div>
+
+            <form>
+                <input type="text" name="name" placeholder="Name"><br>
+                <input type="text" name="email" placeholder="email"><br>
+                <textarea name="message" placeholder="Your message..."></textarea>
+            </form>
+
+        </div>
 
     </main>
 

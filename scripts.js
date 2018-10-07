@@ -17,8 +17,7 @@ function openMenu(button, menu) {
         button.children[1].children[1].style = 'width: 0.4em;';
         button.children[1].children[2].style = 'width: 0.4em; margin-left: 1em;';
 
-        // menu.style.transform = 'translateY(5rem)';
-        menu.style.transform = 'translateX(0rem)';
+        menu.style.transform = 'translateX(-10em)';
     } else {
         button.children[0].children[1].style = 'visibility: visible;';
         button.children[1].children[0].style = '';
