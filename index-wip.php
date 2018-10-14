@@ -4,7 +4,7 @@
 
         <img class="banner" src="https://placeimg.com/375/250/people">
 
-        <div id="intro">
+        <!-- <div id="intro">
             <h1>our approach</h1>
             <p>Broad Horizons was founded in 2001 by Trauma Psychotherapist Claire Harrison-Breed. Since then we have
                 grown into a well-respected Therapy Centre that specialises in working with trauma, dissociation and
@@ -15,14 +15,14 @@
                 ensure that children, adults and families are not expected fit into ridged services, but services are
                 shaped and tailored to meet the individual’s needs and are delivered all under one roof.</p>
             <button>discover more</button>
-        </div>
+        </div> -->
 
         <div class="services">
             <div>
                 <img src="./images/icon-services.svg">
                 <div>
                     <h2>therapeutic services</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>"Our packages of support are carefully tailored to meet individual needs"</p>
                 </div>
             </div>
 
@@ -30,15 +30,15 @@
                 <img src="./images/icon-training.svg">
                 <div>
                     <h2>training</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>"Tailormade training to meet any need or choose from our extensive range of contemporary pre-existing courses"</p>
                 </div>
             </div>
 
             <div>
-                <img src="./images/icon-assessments.svg">
+                <img src="./images/icon-supervisions.svg">
                 <div>
-                    <h2>assessments</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h2>supervision</h2>
+                    <p>"Providing exploration of wellbeing for practitioners and professionals to achieve best outcomes for children and families"</p>
                 </div>
             </div>
 
@@ -46,20 +46,20 @@
                 <img src="./images/icon-consultations.svg">
                 <div>
                     <h2>consultations</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>"Not sure what's right for you? Please get in touch and we would be happy to offer you a consultation"</p>
                 </div>
             </div>
         </div>
 
         <div id="claire">
             <h1>claire harrison - breed</h1>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+            <h3><em>"developing the potential for change"</em></h3>
             
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <button>discover more</button>
+            <p>Welcome! Here at Broad Horizons we welcome referrals from professionals, adult self-referrals, parents and carers of children and young people. We offer a range of Psychotherapy, Therapeutic Interventions, Assessments, Clinical Supervision and Trainings all under one roof.</p>
+            <button><a href="#">about us</a></button>
         </div>
 
-        <h1 id="team-title">our team</h1>
+        <!-- <h1 id="team-title">our team</h1>
 
         <div id="team">
 
@@ -95,7 +95,7 @@
                 </div>
             </div>
 
-        </div>
+        </div> -->
 
         <div id="form">
             

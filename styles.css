@@ -214,22 +214,22 @@ nav > a {
     }
 
     .services > div > img {
-        width: 30%;
-        margin: 10% 35%;
+        width: 40%;
+        margin: 0 30%;
     }
 
     .services > div > div {
         text-align: center;
 
-        width: 70%;
+        width: 80%;
     
-        margin: 1em 15%;
+        margin: 0 10%;
         float: none;
     }
 
     .services > div > div > h2 {
         color: var(--nero);
-        margin-top: 0;
+        margin: 0;
     }
 }
 
@@ -257,8 +257,6 @@ nav > a {
 }
 
 #claire {
-    /* background-image: url("https://placeimg.com/375/375/people");
-    background-color: var(--blu_trasp); */
     background: linear-gradient(var(--blu_trasp),var(--blu_trasp)), url("https://placeimg.com/375/375/people");
     color: var(--bianco);
     padding: 2em 1em;
@@ -268,10 +266,6 @@ nav > a {
 
 #claire > h1 {
     text-transform: capitalize;
-}
-
-#claire > h3 {
-    
 }
 
 #claire > h3::after {
@@ -293,12 +287,14 @@ nav > a {
 }
 
 @media only screen and (min-width: 768px) {
-
+    #claire {
+        background: linear-gradient(to right, rgba(255,0,0,0) 0%, rgba(255,0,0,0) 50%, var(--blu_trasp) 50%, var(--blu_trasp) 100%), url("https://placeimg.com/375/375/people");
+        width: 100%;
+        padding-left: 50%;
+    }
 }
 
 #form {
-    /* background-image: url("https://placeimg.com/375/375/people");
-    background-color: var(--blu_trasp); */
     background: linear-gradient(var(--blu_trasp),var(--blu_trasp)), url("https://placeimg.com/375/375/any");
     color: var(--bianco);
     padding: 1em;
