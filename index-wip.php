@@ -2,7 +2,7 @@
 
 <main>
 
-        <img class="banner" src="https://placeimg.com/375/250/people">
+        <img class="banner" src="https://placeimg.com/375/200/people">
 
         <!-- <div id="intro">
             <h1>our approach</h1>
@@ -104,7 +104,7 @@
                 <h3>broad horizons</h3>
                 <p>1 college grounds<br>gate 1 moulton college<br>northampton<br>NN3 7SY</p>
 
-                <p>07920 170 100<br>info@broadhorizons.org.uk<br>www.broadhorizons.org.uk</p>
+                <p>07920 170 100<br>01604 645 921<br>admin@broadhorizons.org.uk<br>www.broadhorizons.org.uk</p>
             </div>
 
             <form>
