@@ -23,7 +23,7 @@
     <header>
 
         <nav>
-            <a href="./index.php">home</a>
+            <a href="./index-wip.php">home</a>
             <a href="./about-us.php">about Us</a>
             <a href="./services.php">services</a>
             <a href="./contacts.php">contacts</a>

@@ -31,6 +31,8 @@ h1 {
     text-transform: capitalize;
     font-size: 3rem;
     font-weight: bold;
+
+    color: var(--bianco);
 }
 
 h2 {
@@ -228,6 +230,23 @@ nav > a {
     margin: 15%;
 }
 
+.banner > h1 {
+    width: 100%;
+    margin: 0;
+    padding: 15%;
+}
+
+#banner-therapeutic {
+    background: url("./images/banner-therapeutic.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: var(--bianco);
+
+    text-align: center;
+}
+
 #intro {
     text-align: center;
 
@@ -348,7 +367,8 @@ nav > a {
     color: var(--bianco);
 
     padding: 2em;
-    margin: 1em;
+    margin: 4em 15%;
+    width: 70%;
 }
 
 #services-boxes >div:nth-child(2n+1) {

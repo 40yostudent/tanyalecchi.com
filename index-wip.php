@@ -2,7 +2,6 @@
 
 <main>
 
-        <!-- <img class="banner" src="./images/logo-inv-big.svg"> -->
         <div class="banner">
             <img src="./images/logo-inv-big.svg">
         </div>
