@@ -247,8 +247,19 @@ nav > a {
     text-align: center;
 }
 
+#banner-about-us {
+    background: url("./images/banner-about-us.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: var(--bianco);
+
+    text-align: center;    
+}
+
 #intro {
-    text-align: center;
+    text-align: justify;
 
     margin: 1em;
 }
@@ -421,6 +432,33 @@ nav > a {
     color: var(--bianco);
 
     padding: 1em;
+}
+
+#claire-blurb {
+    background: var(--blu_trasp);
+
+    padding: 2em;
+
+    text-align: justify;
+}
+
+#claire-blurb > img {
+    width: 70%;
+    margin: 1em 15% 2em 15%;
+}
+
+#claire-blurb > h2 {
+    color: var(--bianco);
+    text-align: center;
+}
+
+#claire-blurb > p {
+    width: 70%;
+    margin: 2em 15%;
+}
+
+#claire-blurb > p > em {
+    font-size: 1.4em;
 }
 
 @media only screen and (min-width: 768px) {
