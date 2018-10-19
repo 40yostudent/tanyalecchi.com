@@ -32,7 +32,7 @@
 
         <img src="./images/logo-inv.svg">
 
-        <a href="#"><div id="menu-button">
+        <a><div id="menu-button">
             <div>
                 <div></div>
                 <div></div>

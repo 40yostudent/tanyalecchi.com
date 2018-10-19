@@ -2,108 +2,110 @@
 
 <main>
 
-        <img class="banner" src="https://placeimg.com/375/200/people">
+        <!-- <img class="banner" src="./images/logo-inv-big.svg"> -->
+        <div class="banner">
+            <img src="./images/logo-inv-big.svg">
+        </div>
 
-        <!-- <div id="intro">
-            <h1>our approach</h1>
-            <p>Broad Horizons was founded in 2001 by Trauma Psychotherapist Claire Harrison-Breed. Since then we have
-                grown into a well-respected Therapy Centre that specialises in working with trauma, dissociation and
-                attachment issues.</p>
-            <p>At Broad Horizons we recognise and see beyond behaviour. We work with each individual’s strength and
-                creativity, with the aim of adapting when met with challenge, trauma or adversity.</p>
-            <p>Claire’s motivation in creating a diverse therapeutic practice offering a range of services, is to
-                ensure that children, adults and families are not expected fit into ridged services, but services are
-                shaped and tailored to meet the individual’s needs and are delivered all under one roof.</p>
-            <button>discover more</button>
-        </div> -->
+        <div id="intro">
+            <h2>our approach</h2>
+            <p>At Broad Horizons we value individual’s strength and creativity when met with challenge, trauma or adversity. Our motivation in creating a diverse therapeutic service was to ensure that children and families are not expected to fit into whatever services are available, but ensure that services including therapy, parent support, training etcetera are tailored to the individual child and family’s needs.</p>
+            <p>At Broad Horizons we recognise and see beyond behaviour. We work with each individual’s strength and creativity, with the aim of adapting when met with challenge, trauma or adversity.</p>
+        </div>
 
         <div class="services">
             <div>
                 <img src="./images/icon-services.svg">
                 <div>
-                    <h2>therapeutic services</h2>
-                    <p>"Our packages of support are carefully tailored to meet individual needs"</p>
+                    <h4>therapeutic services</h4>
+                    <p>Our packages of support are carefully tailored to meet individual needs</p>
                 </div>
             </div>
 
             <div>
                 <img src="./images/icon-training.svg">
                 <div>
-                    <h2>training</h2>
-                    <p>"Tailormade training to meet any need or choose from our extensive range of contemporary pre-existing courses"</p>
+                    <h4>training</h4>
+                    <p>Tailormade training to meet any need or choose from our extensive range of contemporary pre-existing courses</p>
                 </div>
             </div>
 
             <div>
                 <img src="./images/icon-supervisions.svg">
                 <div>
-                    <h2>supervision</h2>
-                    <p>"Providing exploration of wellbeing for practitioners and professionals to achieve best outcomes for children and families"</p>
+                    <h4>supervision</h4>
+                    <p>Providing exploration of wellbeing for practitioners and professionals to achieve best outcomes for children and families</p>
                 </div>
             </div>
 
             <div>
                 <img src="./images/icon-consultations.svg">
                 <div>
-                    <h2>consultations</h2>
-                    <p>"Not sure what's right for you? Please get in touch and we would be happy to offer you a consultation"</p>
+                    <h4>consultations</h4>
+                    <p>Not sure what's right for you? Please get in touch and we would be happy to offer you a consultation</p>
                 </div>
             </div>
         </div>
 
         <div id="claire">
-            <h1>claire harrison - breed</h1>
-            <h3><em>"developing the potential for change"</em></h3>
+            <div id="claire-image"></div>
+            <div id="claire-text">
+                <h2>claire harrison - breed</h2>
+                <p><em>I first founded Broad Horizon in 2001, at the time as an individual practitioner. I am passionate about ensuring we move away from viewing children, young people or adults needing therapy as dysfunctional.</em></p>
             
-            <p>Welcome! Here at Broad Horizons we welcome referrals from professionals, adult self-referrals, parents and carers of children and young people. We offer a range of Psychotherapy, Therapeutic Interventions, Assessments, Clinical Supervision and Trainings all under one roof.</p>
-            <button><a href="#">about us</a></button>
+                <p>As a UKCP and BACP Child and Adult Psychotherapist, Claire specialises in working with trauma and dissociation with children young people and adults. Alongside therapeutic practice she is a Senior Lecturer in Counselling for the University of Northampton.</p>
+                <button><a href="#">discover more</a></button>
+            </div>
         </div>
-
-        <!-- <h1 id="team-title">our team</h1>
 
         <div id="team">
 
+            <h2>our team</h2>
+            <p>Since 2001 we have grown into a well-respected Therapy Centre that specialises in working with trauma, dissociation and attachment issues.</p>
+
             <div>
-                <img src="https://placeimg.com/128/128/any">
+                <img src="./images/squared-claire.jpg">
                 <div>
-                    <h4>name surname</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h5>claire</h5>
+                    <p>As a UKCP and BACP Child and Adult Psychotherapist, Claire specialises in working with trauma and dissociation with children, young people and adults.</p>
                 </div>
             </div>
 
             <div>
-                <img src="https://placeimg.com/128/128/any">
+                <img src="./images/squared-sarah.jpg">
                 <div>
-                    <h4>name surname</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h5>sarah</h5>
+                    <p>Clinical Lead for Broad Horizons team Sarah has worked within Social Care for over 20 years. She offers Video Interaction Guidance Supervision for VIG Guiders.</p>
                 </div>
             </div>
 
             <div>
-                <img src="https://placeimg.com/128/128/any">
+                <img src="./images/squared-generic.png">
                 <div>
-                    <h4>name surname</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h5>audrey</h5>
+                    <p>Audrey has been a counsellor and psychotherapist spanning 25 years. She can offer individual therapy for children, young people and adults as well as providing parent led CBT.</p>
                 </div>
             </div>
 
             <div>
-                <img src="https://placeimg.com/128/128/any">
+                <img src="./images/squared-amy.jpg">
                 <div>
-                    <h4>name surname</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h5>amy</h5>
+                    <p>Amy has been working therapeutically with children and young people for over 12 years. She offers individual therapy for children, young people and adults.</p>
                 </div>
             </div>
 
-        </div> -->
+            <button><a href="#">discover more</a></button>
+
+        </div>
 
         <div id="form">
             
             <div>
-                <h1>contacts</h1>
-                <h3>broad horizons</h3>
-                <p>1 college grounds<br>gate 1 moulton college<br>northampton<br>NN3 7SY</p>
-
+                <h2>contacts</h2>
+                <p>Broad Horizons</p>
+                <p>1 College Grounds<br>Gate 1 Moulton College<br>Northampton<br>NN3 7SY</p>
+                <div class="line"></div>
                 <p>07920 170 100<br>01604 645 921<br>admin@broadhorizons.org.uk<br>www.broadhorizons.org.uk</p>
             </div>
 

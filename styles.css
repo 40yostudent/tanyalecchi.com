@@ -22,13 +22,97 @@ body {
     margin: 0;
 }
 
-h1, h3 {
+h1, h2, h3, h4, h5, h6 {
     text-transform: capitalize;
+    color: var(--viola);
+}
+
+h1 {
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+h3 {
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+h4 {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h5 {
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: lighter;
+}
+
+button {
+    font-size: 1rem;
 }
 
 a, a:hover, a:active, a:visited, a:focus {
     color: var(--bianco);
     text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        text-transform: capitalize;
+        font-size: 48pt;
+        font-weight: bold;
+    }
+
+    h2 {
+        text-transform: capitalize;
+        font-size: 36pt;
+        font-weight: normal;
+    }
+
+    h3 {
+        text-transform: capitalize;
+        font-size: 24pt;
+        font-weight: bold;
+    }
+
+    h4 {
+        text-transform: capitalize;
+        font-size: 21pt;
+        font-weight: bold;
+    }
+
+    h5 {
+        text-transform: capitalize;
+        font-size: 16pt;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 12pt;
+        line-height: 21pt;
+        font-weight: lighter;
+    }
+
+    button {
+        font-size: 12pt;
+    }
+
 }
 
 header {
@@ -129,7 +213,19 @@ nav > a {
 }
 
 .banner {
+    background: url("./images/banner-home.jpg");
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: var(--bianco);
+
+    text-align: center;
+}
+
+.banner > img {
+    width: 50%;
+    margin: 15%;
 }
 
 #intro {
@@ -270,18 +366,25 @@ nav > a {
 }
 
 #claire {
-    background: linear-gradient(var(--blu_trasp),var(--blu_trasp)), url("https://placeimg.com/375/375/people");
-    color: var(--bianco);
-    padding: 2em 1em;
-
+    position: relative;
     text-align: center;
+    color: var(--bianco);
 }
 
-#claire > h1 {
-    text-transform: capitalize;
+#claire-text {
+    height: 100%;
+    background-image: linear-gradient(var(--blu_trasp),var(--blu_trasp)), url("./images/pict-claire.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 2em;
 }
 
-#claire > h3::after {
+#claire-text > h2 {
+    color: var(--bianco);
+}
+
+#claire-text > p > em:after {
     content:"";
     display: block;
     width: 50%;
@@ -289,11 +392,12 @@ nav > a {
     border-bottom: 1px solid var(--bianco);
 }
 
-#claire > button {
+#claire-text > button {
     text-transform: capitalize;
 
-    background-color: var(--viola);
-    border: none;
+    background-color: transparent;
+    border-color: var(--bianco);
+    border-radius: 2em;
     color: var(--bianco);
 
     padding: 1em;
@@ -301,42 +405,32 @@ nav > a {
 
 @media only screen and (min-width: 768px) {
     #claire {
-        background: linear-gradient(to right, rgba(255,0,0,0) 0%, rgba(255,0,0,0) 50%, var(--blu_trasp) 50%, var(--blu_trasp) 100%), url("https://placeimg.com/375/375/people");
-        width: 100%;
-        padding-left: 50%;
+        position: relative;
+        text-align: center;
+        color: var(--bianco);
+
+        height: 50em;
+        max-width: 100%;
     }
-}
 
-#form {
-    background: linear-gradient(var(--blu_trasp),var(--blu_trasp)), url("https://placeimg.com/375/375/any");
-    color: var(--bianco);
-    padding: 1em;
+    #claire-image {
+        height: 100%;
+        background-image: url("./images/pict-claire.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
-    text-align: center;
-}
+    #claire-text {
+        background: var(--blu_trasp);
 
-#form > h1 {
-    text-transform: capitalize;
-}
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(0%, -50%);
 
-#form > h3 {
-    text-transform: capitalize;
-
-    margin: 0;
-}
-
-#form > p {
-    text-transform: capitalize;
-
-    margin: 0;
-}
-
-#form > p:nth-child(4)::after {
-    content:"";
-    display: block;
-    width: 50%;
-    margin: 1em 25%;
-    border-bottom: 1px solid var(--bianco);
+        padding: 1em;
+        height: 100%;
+    }
 }
 
 #team {
@@ -347,10 +441,14 @@ nav > a {
     justify-content: center;
 }
 
-#team-title {
-    text-transform: capitalize;
-    color: var(--viola);
-    text-align: center;
+#team > p {
+    width: 80%;
+    margin-bottom: 3em;
+}
+
+#team > div > img {
+    border-radius: 50%;
+    width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -364,22 +462,34 @@ nav > a {
 }
 
 #team > div {
-    background-color: rgba(225, 225, 225, 1.0);
+    /* background-color: rgba(225, 225, 225, 1.0); */
     width: 40%;
     margin: 5%;
 }
 
-#team > div > img {
-    width: 100%;
-}
-
-#team > div > div > h4 {
+#team > div > div > h5 {
     text-align: center;
-    margin: 0.5em;
+    margin: 1em;
 }
 
 #team > div > div > p {
     text-align: center;
+}
+
+#team > button {
+    text-transform: capitalize;
+
+    border: 2px solid var(--viola);
+    border-radius: 2em;
+    background-color: transparent;
+    color: var(--viola);
+
+    padding: 1em;
+    margin: 1em;
+}
+
+#team > button > a {
+    color: var(--viola);
 }
 
 @media only screen and (min-width: 768px) {
@@ -427,7 +537,28 @@ form > textarea::placeholder {
     opacity: 0.9;
 }
 
-#form > div > p:first-of-type::after {
+#form {
+    background: linear-gradient(var(--blu_trasp),var(--blu_trasp)), url("./images/banner-contact-us.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: var(--bianco);
+
+    padding: 1em;
+    text-align: center;
+}
+
+#form > div > h2 {
+    text-transform: capitalize;
+    color: var(--bianco);
+}
+
+#form > div > p {
+    margin: 0;
+}
+
+.line {
     content:"";
     display: block;
     width: 50%;
