@@ -441,6 +441,10 @@ nav > a {
     justify-content: center;
 }
 
+#team > h2 {
+    margin: 1em 30%;
+}
+
 #team > p {
     width: 80%;
     margin-bottom: 3em;
@@ -449,16 +453,6 @@ nav > a {
 #team > div > img {
     border-radius: 50%;
     width: 100%;
-}
-
-@media only screen and (min-width: 768px) {
-    #team-title::before {
-        content:"";
-        display: block;
-        width: 30%;
-        margin: 2em 35%;
-        border-bottom: 1px solid var(--nero);
-    }
 }
 
 #team > div {
