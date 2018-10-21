@@ -1,5 +1,7 @@
 <?php 
-    if(isset($_POST['submit'])){
+    if( isset($_POST['email']) && !empty($_POST['mail']) &&
+        isset($_POST['name']) && !empty($_POST['name']) &&
+        isset($_POST['message']) && !empty($_POST['message']) ) {
         $to = "support@qmill.eu";
         $from = $_POST['email'];
         $name = $_POST['name'];
