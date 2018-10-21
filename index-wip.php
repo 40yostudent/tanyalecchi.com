@@ -1,3 +1,16 @@
+<?php 
+if(isset($_POST['submit'])){
+    $to = "support@qmill.eu"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $name = $_POST['name'];
+    $message = $_POST['message'];
+
+    $headers = "From:" . $from;
+    mail($to,"Mail from" . " " . $name,$message,$headers);
+    $mail_sent = "Mail Sent!";
+    }
+?>
+
 <?php include("header.php"); ?>
 
 <main>
@@ -116,10 +129,12 @@
                 <p>07920 170 100<br>01604 645 921<br>admin@broadhorizons.org.uk<br>www.broadhorizons.org.uk</p>
             </div>
 
-            <form>
+            <form action="" method="post" id="contact-form">
                 <input type="text" name="name" placeholder="Name"><br>
                 <input type="text" name="email" placeholder="email"><br>
                 <textarea name="message" placeholder="Your message..."></textarea>
+
+                <button type="submit" form="contact-form" value="submit">Submit</button>
             </form>
 
         </div>

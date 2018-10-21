@@ -556,6 +556,19 @@ form > textarea::placeholder {
     opacity: 0.9;
 }
 
+form > button {
+    background-color: rgba(255, 255, 255, 0.25);
+    color: var(--bianco);
+
+    padding: 1em;
+    margin: 1em 0;
+    border: none;
+
+    border-radius: 4em;
+
+    font-size: 12pt;
+}
+
 #form {
     background: linear-gradient(var(--blu_trasp),var(--blu_trasp)), url("./images/banner-contact-us.jpg");
     height: 100%;
