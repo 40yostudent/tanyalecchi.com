@@ -26,7 +26,6 @@
             <a href="./index-wip.php">home</a>
             <a href="./about-us.php">about Us</a>
             <a href="./services.php">services</a>
-            <a href="./contacts.php">contacts</a>
             <a href="./map.php">map</a>
         </nav>
 
