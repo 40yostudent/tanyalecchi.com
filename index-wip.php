@@ -1,5 +1,5 @@
 <?php 
-    if( isset($_POST['email']) && !empty($_POST['mail']) &&
+    if( isset($_POST['email']) && !empty($_POST['email']) &&
         isset($_POST['name']) && !empty($_POST['name']) &&
         isset($_POST['message']) && !empty($_POST['message']) ) {
         $to = "support@qmill.eu";
@@ -133,7 +133,7 @@
                 <p>07920 170 100<br>01604 645 921<br>admin@broadhorizons.org.uk<br>www.broadhorizons.org.uk</p>
             </div>
 
-            <form action="" method="post" id="contact-form">
+            <form action="./index-wip.php#form" method="post" id="contact-form">
                 <input type="text" name="name" placeholder="Name"><br>
                 <input type="text" name="email" placeholder="email"><br>
                 <textarea name="message" placeholder="Your message..."></textarea>
