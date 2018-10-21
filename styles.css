@@ -562,11 +562,13 @@ form > button {
 
     padding: 1em;
     margin: 1em 0;
-    border: none;
+    border: 2px solid var(--bianco);
 
     border-radius: 4em;
 
     font-size: 12pt;
+
+    text-transform: capitalize;
 }
 
 #form {
