@@ -1,13 +1,15 @@
 <?php 
-if(isset($_POST['submit'])){
-    $to = "support@qmill.eu";
-    $from = $_POST['email'];
-    $name = $_POST['name'];
-    $message = $_POST['message'];
+    if(isset($_POST['submit'])){
+        $to = "support@qmill.eu";
+        $from = $_POST['email'];
+        $name = $_POST['name'];
+        $message = $_POST['message'];
 
-    $headers = "From:" . $from;
-    mail($to,"Mail from" . " " . $name,$message,$headers);
-    $mail_sent = "Mail Sent!";
+        $headers = "From:" . $from;
+        mail($to,"Mail from" . " " . $name,$message,$headers);
+        $mail_sent = "Mail Sent!";
+    } else {
+        $mail_sent = "";
     }
 ?>
 
@@ -135,6 +137,7 @@ if(isset($_POST['submit'])){
                 <textarea name="message" placeholder="Your message..."></textarea>
 
                 <button type="submit" form="contact-form" value="submit">Submit</button>
+                <p><?php echo($mail_sent) ?></p>
             </form>
 
         </div>
