@@ -137,7 +137,7 @@
                 <textarea name="message" placeholder="Your message..."></textarea>
 
                 <button type="submit" form="contact-form" value="submit">Submit</button>
-                <p><?php echo($mail_sent) ?></p>
+                <p><?php echo $mail_sent ?></p>
             </form>
 
         </div>
