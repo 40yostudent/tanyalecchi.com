@@ -126,7 +126,7 @@
         <div id="form">
             
             <div>
-                <h2>contacts</h2>
+                <h2>contact us</h2>
                 <p>Broad Horizons</p>
                 <p>1 College Grounds<br>Gate 1 Moulton College<br>Northampton<br>NN3 7SY</p>
                 <div class="line"></div>
@@ -134,6 +134,7 @@
             </div>
 
             <form action="./index-wip.php#form" method="post" id="contact-form">
+                
                 <input type="text" name="name" placeholder="Name"><br>
                 <input type="text" name="email" placeholder="email"><br>
                 <textarea name="message" placeholder="Your message..."></textarea>
