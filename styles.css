@@ -39,6 +39,8 @@ h2 {
     text-transform: capitalize;
     font-size: 2rem;
     font-weight: normal;
+
+    text-align: center;
 }
 
 h3 {
@@ -261,7 +263,9 @@ nav > a {
 #intro {
     text-align: justify;
 
-    margin: 1em;
+    /* margin: 1em; */
+    width: 80%;
+    margin: 2em 10%;
 }
 
 #intro > h1 {
@@ -305,36 +309,22 @@ nav > a {
 }
 
 .services {
-    margin: 2em;
+    margin: 2em 10%;
 }
 
-.services > div::after {
-    content: "";
-    clear: both;
-    display: table;
+.services > div {
+    text-align: center;
 }
 
 .services > div > img {
-    width: 20%;
-}
-
-.services > div > div {
-    width: 75%;
-
-    margin-left: 5%;
-    float: right;
-}
-
-.services > div > div > h2 {
-    color: var(--viola);
-    text-transform: capitalize;
-    margin-top: 0;
+    width: calc(5em + 10vw);
+    margin: 2em auto 0em auto;
 }
 
 @media only screen and (min-width: 768px) {
     .services {
         display: flex;
-        flex-direction: row;
+        flex-flow: row nowrap;
         justify-content: space-evenly;
         align-items: baseline;
 
@@ -342,32 +332,12 @@ nav > a {
     }
 
     .services > div {
-        padding: 0;
+        flex-basis: 20%;
     }
 
     .services > div > img {
-        width: 40%;
-        margin: 1em 30%;
-    }
-
-    .services > div > div {
-        text-align: center;
-
-        width: 90%;
-    
-        margin: 0 1em;
-        float: none;
-    }
-
-    .services > div > div > h2 {
-        color: var(--nero);
-        padding: 0 1em;
-        margin: 0;
-    }
-
-    .services > div > div > p {
-        width: 100%;
-        padding: 1em;
+        width: calc(4vw + 4em);
+        float: inherit;
         margin: 0;
     }
 }
@@ -378,8 +348,9 @@ nav > a {
     color: var(--bianco);
 
     padding: 2em;
-    margin: 4em 15%;
-    width: 70%;
+    padding-top: 1em;
+    margin: 4em 10%;
+    width: 80%;
 }
 
 #services-boxes >div:nth-child(2n+1) {
@@ -390,16 +361,12 @@ nav > a {
     background-color: var(--boxes1);
 }
 
-#services-boxes > div > h1 {
-    text-align: center;
-    text-transform: capitalize;
-    margin: 0;
-}
-
 #claire {
     position: relative;
     text-align: center;
     color: var(--bianco);
+
+    margin-top: 4em;
 }
 
 #claire-text {
@@ -443,8 +410,8 @@ nav > a {
 }
 
 #claire-blurb > img {
-    width: 70%;
-    margin: 1em 15% 2em 15%;
+    width: 80%;
+    margin: 1em 10% 2em 10%;
 }
 
 #claire-blurb > h2 {
@@ -453,8 +420,8 @@ nav > a {
 }
 
 #claire-blurb > p {
-    width: 70%;
-    margin: 2em 15%;
+    width: 80%;
+    margin: 2em 10%;
 }
 
 #claire-blurb > p > em {
@@ -598,6 +565,7 @@ form > textarea::placeholder {
     color: var(--bianco);
 
     padding: 1em;
+    margin-top: 4em;
     text-align: center;
 }
 

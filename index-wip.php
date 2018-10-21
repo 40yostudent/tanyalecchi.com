@@ -15,36 +15,44 @@
         <div class="services">
             <div>
                 <img src="./images/icon-services.svg">
-                <div>
+                <!-- <div> -->
                     <h4>therapeutic services</h4>
-                    <p>Our packages of support are carefully tailored to meet individual needs</p>
-                </div>
+                    <p>
+                        Our packages of support are carefully tailored to meet individual needs
+                    </p>
+                <!-- </div> -->
             </div>
 
             <div>
                 <img src="./images/icon-training.svg">
-                <div>
+                <!-- <div> -->
                     <h4>training</h4>
-                    <p>Tailormade training to meet any need or choose from our extensive range of contemporary pre-existing courses</p>
-                </div>
+                    <p>
+                        Tailormade training to meet any need or choose from our extensive range of contemporary pre-existing courses
+                    </p>
+                <!-- </div> -->
             </div>
 
             <div>
                 <img src="./images/icon-supervisions.svg">
-                <div>
+                <!-- <div> -->
                     <h4>supervision</h4>
-                    <p>Providing exploration of wellbeing for practitioners and professionals to achieve best outcomes for children and families</p>
-                </div>
+                    <p>
+                        Providing exploration of wellbeing for practitioners and professionals to achieve best outcomes for children and families
+                    </p>
+                <!-- </div> -->
             </div>
 
             <div>
                 <img src="./images/icon-consultations.svg">
-                <div>
+                <!-- <div> -->
                     <h4>consultations</h4>
-                    <p>Not sure what's right for you? Please get in touch and we would be happy to offer you a consultation</p>
-                </div>
+                    <p>
+                        Not sure what's right for you? Please get in touch and we would be happy to offer you a consultation
+                    </p>
+                <!-- </div> -->
             </div>
-        </div>
+        </div> <!-- end services -->
 
         <div id="claire">
             <div id="claire-image"></div>
