@@ -526,6 +526,58 @@ nav > a {
     color: var(--viola);
 }
 
+#team-page {
+
+}
+
+#team-page > img {
+    width: 50%;
+    margin: 0 25%;
+
+    border-radius: 50%;
+}
+
+#team-page:before {
+    content:"";
+    display: block;
+    width: 20%;
+    margin: 4em 40%;
+    border-bottom: 2px solid var(--viola);
+}
+
+#team-page > h3 {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+
+#team-page > h5 {
+    text-align: center;
+    color: dimgray;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+#team-page > p {
+    width: 80%;
+    margin: 4em 10%;
+}
+
+@media only screen and (min-width: 768px) {
+
+    #team-page > img {
+        width: 24em;
+        margin: 0 calc(50% - 12em);
+    
+        border-radius: 50%;
+    }
+
+    #team-page > p {
+        width: 60%;
+        margin: 4em 20%;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     #team > div {
         width: 20%;
