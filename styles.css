@@ -410,6 +410,10 @@ nav > a {
     color: var(--bianco);
 }
 
+#claire-text > p {
+    padding: 0 1em;
+}
+
 #claire-text > p > em:after {
     content:"";
     display: block;
@@ -427,6 +431,7 @@ nav > a {
     color: var(--bianco);
 
     padding: 1em;
+    margin: 2em 1em 1em 1em;
 }
 
 #claire-blurb {
@@ -551,7 +556,7 @@ nav > a {
 }
 
 #team-page {
-
+    text-align: justify;
 }
 
 #team-page > img {
@@ -663,7 +668,7 @@ form > button {
 }
 
 #form {
-    background: linear-gradient(rgba(23, 27, 96, 0.75),rgba(23, 27, 96, 0.75)), url("./images/banner-contact-us.jpg");
+    background: linear-gradient(rgba(23, 27, 96, 0.85),rgba(23, 27, 96, 0.85)), url("./images/banner-contact-us.jpg");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;

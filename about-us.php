@@ -51,7 +51,7 @@
     </div>
 
     <div>
-        <img src="./images/squared-generic.png">
+        <img src="./images/squared-audrey.jpg">
         <div>
             <h5>audrey</h5>
             <p>Audrey has been a counsellor and psychotherapist spanning 25 years. She can offer individual therapy for children, young people and adults as well as providing parent led CBT.</p>
