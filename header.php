@@ -29,7 +29,7 @@
             <a href="./map.php">map</a>
         </nav>
 
-        <img src="./images/logo-inv.svg">
+        <a href="./index-wip.php"><img src="./images/logo-inv.svg"></a>
 
         <a><div id="menu-button">
             <div>

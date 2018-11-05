@@ -132,7 +132,7 @@ header {
     align-items: baseline;
 }
 
-header > img {
+header > a > img {
     margin: 1em;
     width: 8em;
 }
@@ -404,6 +404,12 @@ nav > a {
     background-size: cover;
 
     padding: 2em;
+}
+
+@media only screen and (min-width: 768px) {
+    #claire-text {
+        background-image: linear-gradient(var(--blu_trasp),var(--blu_trasp)), url("./images/pict-claire-wide.jpg");
+    }
 }
 
 #claire-text > h2 {
