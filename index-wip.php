@@ -74,7 +74,7 @@
         <div id="claire">
             <div id="claire-image"></div>
             <div id="claire-text">
-                <h2>claire harrison - breed</h2>
+                <h4 style="color: white;">claire harrison - breed</h4>
                 <p><em>I first founded Broad Horizon in 2001, at the time as an individual practitioner. I am passionate about ensuring we move away from viewing children, young people or adults needing therapy as dysfunctional.</em></p>
             
                 <p>As a UKCP and BACP Child and Adult Psychotherapist, Claire specialises in working with trauma and dissociation with children young people and adults. Alongside therapeutic practice she is a Senior Lecturer in Counselling for the University of Northampton.</p>
