@@ -406,12 +406,6 @@ nav > a {
     padding: 2em;
 }
 
-@media only screen and (min-width: 1440px) {
-    #claire-text {
-        background-image: linear-gradient(var(--blu_trasp),var(--blu_trasp)), url("./images/pict-claire-wide.jpg");
-    }
-}
-
 #claire-text > h2 {
     color: var(--bianco);
 }
@@ -504,6 +498,12 @@ nav > a {
 
         padding: 1em;
         height: 100%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    #claire-image {
+        background-image: url("./images/pict-claire-wide.jpg");
     }
 }
 
