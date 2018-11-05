@@ -362,7 +362,7 @@ nav > a {
 
     color: var(--bianco);
 
-    padding: 4em;
+    padding: 4em 1em;
     padding-top: 2em;
     margin: 4em 10%;
     width: 80%;
@@ -443,8 +443,8 @@ nav > a {
 }
 
 #claire-blurb > img {
-    width: 80%;
-    margin: 1em 10% 2em 10%;
+    width: 90%;
+    margin: 1em 5% 2em 5%;
 }
 
 #claire-blurb > h2 {
@@ -453,8 +453,8 @@ nav > a {
 }
 
 #claire-blurb > p {
-    width: 80%;
-    margin: 2em 10%;
+    width: 90%;
+    margin: 2em 5%;
 }
 
 #claire-blurb > p > em {
@@ -514,6 +514,8 @@ nav > a {
 }
 
 #team > p {
+    text-align: justify;
+
     width: 60%;
     margin: 1em 20%;
     margin-bottom: 3em;
@@ -612,7 +614,9 @@ nav > a {
         width: 20%;
         margin: 2.5%;
     }
+}
 
+@media only screen and (min-width: 1440px) {
     #team > div > img {
         border-radius: 50%;
         width: 16em;
