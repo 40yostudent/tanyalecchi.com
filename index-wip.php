@@ -9,9 +9,9 @@
 
         $headers = "From:" . $from;
         mail($to,"Mail from" . " " . $name,$message,$headers);
-        $mail_sent = "Mail Sent!";
+        $form_button_label = "Mail Sent!";
     } else {
-        $mail_sent = "";
+        $form_button_label = "Submit";
     }
 ?>
 
@@ -139,8 +139,7 @@
                 <input type="text" name="email" placeholder="email"><br>
                 <textarea name="message" placeholder="Your message..."></textarea>
 
-                <button type="submit" form="contact-form" value="submit">Submit</button>
-                <p><?php echo $mail_sent ?></p>
+                <button type="submit" form="contact-form" value="submit"><?php echo $form_button_label ?></button>
             </form>
 
         </div>
