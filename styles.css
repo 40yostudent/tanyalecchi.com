@@ -532,6 +532,22 @@ nav > a {
     width: 100%;
 }
 
+#team > div > button {
+    text-transform: capitalize;
+
+    color: var(--viola);
+    border: 2px solid var(--viola);
+    background-color: transparent;
+    border-radius: 2em;
+    padding: 0.5em;
+    width: 70%;
+    margin: 0 15%;
+}
+
+#team > div > button > a {
+    color: var(--viola);
+}
+
 #team > div {
     /* background-color: rgba(225, 225, 225, 1.0); */
     width: 40%;

@@ -40,6 +40,7 @@
             <h5>claire</h5>
             <p>As a UKCP and BACP Child and Adult Psychotherapist, Claire specialises in working with trauma and dissociation with children, young people and adults.</p>
         </div>
+        <button><a href="./team.php?id=claire">discover more</a></button>
     </div>
 
     <div>
@@ -48,6 +49,7 @@
             <h5>sarah</h5>
             <p>Clinical Lead for Broad Horizons team Sarah has worked within Social Care for over 20 years. She offers Video Interaction Guidance Supervision for VIG Guiders.</p>
         </div>
+        <button><a href="./team.php?id=sarah">discover more</a></button>
     </div>
 
     <div>
@@ -56,6 +58,7 @@
             <h5>audrey</h5>
             <p>Audrey has been a counsellor and psychotherapist spanning 25 years. She can offer individual therapy for children, young people and adults as well as providing parent led CBT.</p>
         </div>
+        <button><a href="./team.php?id=audrey">discover more</a></button>
     </div>
 
     <div>
@@ -64,6 +67,7 @@
             <h5>amy</h5>
             <p>Amy has been working therapeutically with children and young people for over 12 years. She offers individual therapy for children, young people and adults.</p>
         </div>
+        <button><a href="./team.php?id=amy">discover more</a></button>
     </div>
 
     <div>
@@ -74,6 +78,7 @@
                 Lucy has worked with individuals whom present with trauma, dissociation, anxiety, depression, bereavement and loss, self-esteem, self-harm and suicidal idealisation.
             </p>
         </div>
+        <button><a href="./team.php?id=lucy">discover more</a></button>
     </div>
 
     <div>
@@ -84,6 +89,7 @@
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
             </p>     
         </div>
+        <button><a href="./team.php?id=sophie">discover more</a></button>
     </div>
 
     <div>
@@ -94,6 +100,7 @@
                 Within her therapy Erin works interactively, particularly enjoying play and creative activities. She is trauma and dissociation informed and will work therapeutically with this in mind.
             </p>
         </div>
+        <button><a href="./team.php?id=erin">discover more</a></button>
     </div>
 
     <div>
@@ -104,6 +111,7 @@
                 Luke is specialized in Gender and sexual identities - particularly trans and non-binary identities, relationship styles, eating disorders and self-harm.
             </p>
         </div>
+        <button><a href="./team.php?id=luke">discover more</a></button>
     </div>
 
     <div>
@@ -114,6 +122,7 @@
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
             </p>
         </div>
+        <button><a href="./team.php?id=hayley">discover more</a></button>
     </div>
 
     <div>
@@ -124,6 +133,7 @@
                 Demelza is an assistant within our admin team. In this role, Demelza is the first points of contact between clients and Broad Horizons.
             </p>
         </div>
+        <button><a href="./team.php?id=demelza">discover more</a></button>
     </div>
 
     </div>
