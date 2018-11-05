@@ -275,6 +275,17 @@ nav > a {
     text-align: center;    
 }
 
+#banner-map {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./images/banner-map.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: var(--bianco);
+
+    text-align: center;    
+}
+
 #intro {
     text-align: justify;
 
