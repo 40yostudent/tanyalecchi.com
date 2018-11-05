@@ -406,7 +406,7 @@ nav > a {
     padding: 2em;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1440px) {
     #claire-text {
         background-image: linear-gradient(var(--blu_trasp),var(--blu_trasp)), url("./images/pict-claire-wide.jpg");
     }
