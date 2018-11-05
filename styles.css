@@ -612,6 +612,12 @@ nav > a {
         width: 20%;
         margin: 2.5%;
     }
+
+    #team > div > img {
+        border-radius: 50%;
+        width: 16em;
+        margin: 0 calc((100% - 16em) / 2);
+    }
 }
 
 form {

@@ -33,7 +33,7 @@
             <div>
                 <img src="./images/icon-services.svg">
                 <!-- <div> -->
-                    <h4>therapeutic services</h4>
+                    <h5>therapeutic services</h5>
                     <p>
                         Our packages of support are carefully tailored to meet individual needs
                     </p>
@@ -43,7 +43,7 @@
             <div>
                 <img src="./images/icon-training.svg">
                 <!-- <div> -->
-                    <h4>training</h4>
+                    <h5>training</h5>
                     <p>
                         Tailormade training to meet any need or choose from our extensive range of contemporary pre-existing courses
                     </p>
@@ -53,7 +53,7 @@
             <div>
                 <img src="./images/icon-supervisions.svg">
                 <!-- <div> -->
-                    <h4>supervision</h4>
+                    <h5>supervision</h5>
                     <p>
                         Providing exploration of wellbeing for practitioners and professionals to achieve best outcomes for children and families
                     </p>
@@ -63,7 +63,7 @@
             <div>
                 <img src="./images/icon-consultations.svg">
                 <!-- <div> -->
-                    <h4>consultations</h4>
+                    <h5>consultations</h5>
                     <p>
                         Not sure what's right for you? Please get in touch and we would be happy to offer you a consultation
                     </p>
