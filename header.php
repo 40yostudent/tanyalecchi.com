@@ -10,7 +10,6 @@
 
     <title>Broad Horizons</title>
 
-    <!-- <link rel="stylesheet" href="https://yarnpkg.com/en/package/normalize.css"> -->
     <link rel="stylesheet" href="styles.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon-apple.png">

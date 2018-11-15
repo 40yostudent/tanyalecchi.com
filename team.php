@@ -12,8 +12,7 @@
 
     $dbh  = new PDO($dir) or die("UNABLE TO OPEN THE DATABASE");
 
-    $query = 'SELECT * from team where id = "' . $_GET['id'] . '"'; // http://broadhorizons.org.uk/team.php?id=claire
-
+    $query = 'SELECT * from team where id = "' . $_GET['id'] . '"';
     foreach ($dbh -> query($query) as $row) {
         echo '<div id="team-page">';
         echo '<img src="' . $row[2] . '" alt="">';

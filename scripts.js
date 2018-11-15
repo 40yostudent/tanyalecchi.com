@@ -3,7 +3,6 @@
 let menuButton = document.getElementById('menu-button');
 let navMenu = document.getElementsByTagName('nav')[0];
 
-// MENU BUTTON AND NAV:
 menuButton.addEventListener(
     'click',
     () => openMenu(menuButton, navMenu),
